@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#if (UNITY_ANDROID || UNITY_IPHONE)
+#if (UNITY_ANDROID || UNITY_IPHONE_GPG)
 using System;
 using System.Linq;
 using GooglePlayGames.BasicApi;
@@ -232,7 +232,7 @@ public class NativeClient : IPlayGamesClient {
         return config;
         #endif
 
-        #if UNITY_IPHONE
+        #if UNITY_IPHONE_GPG
         if (!GameInfo.IosClientIdInitialized()) {
             throw new System.InvalidOperationException("Could not locate the OAuth Client ID, " +
                 "provide this by navigating to Google Play Games > iOS Setup");
