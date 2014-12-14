@@ -40,9 +40,14 @@ GOOGLE PLAY GAMES PLUGIN FOR UNITY
 1. If you've modified something in the support library (SupportLib), rebuild the support
    library to generate the JAR (run ./update_support_lib.sh).
 
-2. Open the PluginDev project in Unity
+2. Compile the native gpg lib by navigating to PluginDev/Assets/Plugins/Android/gpg_native_lib/jni
+   and running build_plugin.sh.  You'll need to have a copy of the Android NDK, and have
+   gpg-cpp-sdk downloaded to your $NDK/sources directory (or anywhere in your
+   $NDK_MODULE_PATH).
 
-3. Export a Unity package through the "Google Play Games | Export Plugin Package"
+3. Open the PluginDev project in Unity
+
+4. Export a Unity package through the "Google Play Games | Export Plugin Package"
    option.
 
 Note: If you need to manually generate the plugin for whatever reason, the
