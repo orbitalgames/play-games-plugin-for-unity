@@ -6,7 +6,7 @@ internal static class SymbolLocation {
     internal const string NativeSymbolLocation = "gpg";
     #endif
 
-    #if UNITY_IPHONE
+    #if UNITY_IPHONE_GPG
     internal const string NativeSymbolLocation = "__Internal";
     #endif
 }

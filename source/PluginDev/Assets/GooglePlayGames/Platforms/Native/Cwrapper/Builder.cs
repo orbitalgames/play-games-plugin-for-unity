@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#if (UNITY_ANDROID || UNITY_IPHONE)
+#if (UNITY_ANDROID || UNITY_IPHONE_GPG)
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -122,4 +122,4 @@ internal static class Builder {
         HandleRef self);
 }
 }
-#endif // (UNITY_ANDROID || UNITY_IPHONE)
+#endif // (UNITY_ANDROID || UNITY_IPHONE_GPG)

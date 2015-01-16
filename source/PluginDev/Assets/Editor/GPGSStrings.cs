@@ -33,8 +33,7 @@ public class GPGSStrings {
         public const string Text = "The Google Play Games Plugin for Unity version $VERSION " +
                 "is now ready to use. If this is a new installation or of you have " +
                 "just upgraded from a previous version, please click the 'Google Play Games' " +
-                "menu and select 'Android Setup' and/or 'iOS Setup' to set up your " +
-                "project to build for the corresponding platforms.";
+                "menu and select 'Android Setup' to set up your project to build.";
     }
 
     public class Setup {
@@ -45,25 +44,6 @@ public class GPGSStrings {
         public const string AppIdError = "The App Id does not appear to be valid. " +
             "It must consist solely of digits, usually 10 or more.";
         public const string SetupButton = "Setup";
-    }
-
-    public class IOSSetup {
-        public const string Title = "Google Play Games - iOS Setup";
-        public const string Blurb = "To configure Google Play Games for iOS in this project,\n" +
-            "please enter the information below and click on the Setup button.";
-        public const string ClientIdTitle = "Oauth Client ID";
-        public const string ClientId = "Client ID";
-        public const string ClientIdBlurb = "Enter your oauth2 client ID below. To obtain this\n" +
-            "ID, generate an iOS linked app in Developer Console. Example:\n" +
-            "123456789012-jafwiawoijjfe.apps.googleusercontent.com";
-        public const string ClientIdError = "The Client ID does not appear to be valid. " +
-            "It should end in .apps.googleusercontent.com.";
-        public const string BundleIdTitle = "Bundle Identifier";
-        public const string BundleId = "Bundle ID";
-        public const string BundleIdBlurb = "Enter your application's bundle identifier below.\n" +
-            "(for example, com.example.lorem.ipsum).";
-        public const string BundleIdError = "The bundle ID does not appear to be valid.";
-        public const string SetupComplete = "Setup complete. Ready for iOS build.";
     }
 
     public class AndroidSetup {

@@ -48,9 +48,7 @@
     <Compile Include="Assets\Editor\GPGSAndroidSetupUI.cs" />
     <Compile Include="Assets\Editor\GPGSDocsUI.cs" />
     <Compile Include="Assets\Editor\GPGSExportPackageUI.cs" />
-    <Compile Include="Assets\Editor\GPGSIOSSetupUI.cs" />
     <Compile Include="Assets\Editor\GPGSInstructionWindow.cs" />
-    <Compile Include="Assets\Editor\GPGSPostBuild.cs" />
     <Compile Include="Assets\Editor\GPGSProjectSettings.cs" />
     <Compile Include="Assets\Editor\GPGSStrings.cs" />
     <Compile Include="Assets\Editor\GPGSUpgrader.cs" />
